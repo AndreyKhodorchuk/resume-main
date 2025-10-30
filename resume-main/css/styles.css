@@ -1,0 +1,353 @@
+body {
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* content */
+.content {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.Sidebar {
+    background: #E0EBFE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.Sidebar-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* contact */
+.contact-titel {
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contact-type {
+    color: #161d2a;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 8px;
+}
+
+.contact-link {
+    color: #2979ff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.contact-item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contact-container {
+    margin-bottom: 40px;
+}
+
+/* contact-container */
+.skills-container {
+    margin-bottom: 40px;
+}
+
+.skills-titele {
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    padding-left: 16px;
+}
+
+.skills-list-item {
+    color: #161d2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.skills-container-soft {
+    margin-bottom: 40px;
+}
+
+.skills-titele-soft {
+    color: #161d2a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.skills-list-soft {
+    padding-left: 16px;
+}
+
+.skills-list-item-soft {
+    color: #161d2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* main content  */
+.my-profession {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.my-name {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.info {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.my-info {
+    margin-bottom: 40px;
+}
+
+/* проекти */
+.projects {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.projects-list {
+    padding-left: 16px;
+}
+
+.силка {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.силка-перехід {
+    color: #005fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.силки-тех {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.мої-проекти-коропка {
+    margin-bottom: 40px;
+}
+
+/* досвіт роботи */
+.досвіт-роботи-заголовок {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.робота-1 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.термін-роботи {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.робочі-обовязки-коробка {
+    padding-left: 16px;
+}
+
+.робочі-обовязки- {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.робота-1-коробка {
+    margin-bottom: 12px;
+}
+
+.досвіт-роботи-коробка {
+    margin-bottom: 40px;
+}
+
+.заголовок-освіта {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.назва-закладу {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.термін-навчання {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.освіта-спеціальність {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.освіта-коробка {
+    margin-bottom: 16px;
+}
+
+.осві-осн-коробка {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 960px) {
+    .body {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .Sidebar {
+        width: 250px;
+    }
+
+    .my-foto {
+        width: 250px;
+    }
+
+    .Sidebar-content {
+        padding: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .Sidebar {
+        width: 200px;
+    }
+
+    .my-foto {
+        width: 200px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .my-name {
+        font-size: 28px;
+    }
+
+
+}
+
+@media screen and (max-width: 510px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .Sidebar {
+        width: 100%;
+    }
+
+    .my-foto {
+        width: 100%;
+    }
+
+
+}
